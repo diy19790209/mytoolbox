@@ -624,7 +624,7 @@ $.fn.myValidate = function (settings) {
 		compareTo: function(val, reqExp) {
 			var compareValue = $("#" + reqExp.attr("compareid")).val();
 		    compareValue = compareValue.replace(/\r\n|\r|\n/g, '');     
-		     
+		    
 		    if(val != compareValue) {
 		        return false;
 		    } else {
